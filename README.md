@@ -1,5 +1,5 @@
+# rachel-javascript
 
 By Rachel Jackson for Intro to Coding
 
-Due September 22.
-
+Due September 28.
