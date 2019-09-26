@@ -37,11 +37,31 @@
   let name = firstName + ' ' + middleName + ' ' + lastName;
   console.log(name);
 
-// Strings on my own //
-let greeting = 'my name is';
-console.log(greeating + ' ' + name);
+// Strings on my own 
+  let greeting = 'my name is';
+  console.log(greeting + ' ' + name);
 
+  console.log('using Functions:');
 
+// Function to square numbers
+  function makeSquare(theNumb) {
+  let squared = theNumb * theNumb;
+  return squared;
+  }
+
+  let try01 = makeSquare(3);
+  console.log(try01);
+
+// Functions on your own
+  console.log("nameMaker");
+
+  function nameMaker(first, middle, last) {
+    let fullName = first + ' ' + middle + ' ' + last;
+    return fullName;
+}
+  console.log(nameMaker('Rachel', 'Elizabeth', 'Jackson'));
+  console.log(nameMaker("Robert", "\"Beto\"", "O'Rourke"));
+  
   </script>
 </body>
 </html>
