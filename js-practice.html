@@ -61,7 +61,34 @@
 }
   console.log(nameMaker('Rachel', 'Elizabeth', 'Jackson'));
   console.log(nameMaker("Robert", "\"Beto\"", "O'Rourke"));
+
+  // Make a name with middle initial
+function makeBetterName(firstName, middleName, lastName) {
+  if (middleName.length === 1) {
+    middleName = middleName + ".";
+    let name = firstName + " " + middleName + " " + lastName;
+    return name;
+} else {
+  let name = firstName + "  " + middleName +  " " + lastName;
+    return name;
+  }
+}
   
+  console.log(makeBetterName("Joan", "Marie", "Larkin"));
+  console.log(makeBetterName("Donald", "F", "Trump"));
+
+  // Flow control functions on your own
+  function theWinner(home, away) {
+    if  (home > away) {
+    let message = "the home team won";
+    return message;
+    }  else if (away > home) {
+    let message2 = "the away team won";
+    return message2;
+  }
+}
+
+  console.log(theWinner("5","3"));
   </script>
 </body>
 </html>
